@@ -1,6 +1,6 @@
 # Pricing Comparison Table - roadmap.sh
 
-Una página web estática de una sola página que presenta una tabla comparativa de planes de suscripción totalmente accesible y estructurada con HTML semántico. Este proyecto forma parte de los proyectos prácticos de [roadmap.sh](https://roadmap.sh/).
+Una página web estática de una sola página que presenta una tabla comparativa de planes de suscripción totalmente accesible y estructurada con HTML semántico. Este proyecto forma parte de los proyectos prácticos de [roadmap.sh](https://roadmap.sh/projects/pricing-comparison-table).
 
 ## Descripción del Proyecto
 
