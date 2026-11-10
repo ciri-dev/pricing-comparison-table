@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Comparison Table</title>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      height: 100vh;
+    }
+    header {
+      padding: 1rem 0;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+    }
+    nav h1 {
+      margin: 0;
+    }
+    nav span {
+      color: teal;
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      cursor: pointer;
+    }
+    main {
+      width: 80%;
+      margin: 2rem auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    th {
+      background-color: #eee;
+    }
+    tfoot td {
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1><span>ciridev</span> Plans</h1>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Plan Comparison</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Plan</th>
+          <th scope="col">Storage</th>
+          <th scope="col">Projects</th>
+          <th scope="col">Support</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Free</th>
+          <td>5 GB</td>
+          <td>3</td>
+          <td>Email</td>
+        </tr>
+        <tr>
+          <th scope="row">Pro</th>
+          <td>100 GB</td>
+          <td>25</td>
+          <td>Priority Email</td>
+        </tr>
+        <tr>
+          <th scope="row">Business</th>
+          <td>1 TB</td>
+          <td>Unlimited</td>
+          <td>24/7 Phone</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="4">All plans include SSL and daily backups</td>
+      </tfoot>
+    </table>
+  </main>
+  <footer>
+    <p>&copy; 2026 ciridev. All rights reserved.</p>
+  </footer>
+</body>
+</html>
